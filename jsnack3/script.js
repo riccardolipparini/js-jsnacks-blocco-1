@@ -12,8 +12,9 @@ for(i = 0; i < 10; i++){
     const askNumbers= prompt(`scrivi un numero`);
     numbers.push(askNumbers);
     sum += numbers[i];  
-    console.log(sum);
+    
 }
+console.log(sum);
 
 
 
